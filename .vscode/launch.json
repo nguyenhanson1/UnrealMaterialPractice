@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Udemy_UE4Materials (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Udemy_UE4Materials Win64 Debug Build",
+			"program": "D:\\Repos\\Material Practice\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGame\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGame\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Udemy_UE4Materials (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Udemy_UE4Materials Win64 DebugGame Build",
+			"program": "D:\\Repos\\Material Practice\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGame\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGame\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Udemy_UE4Materials (Development)",
+			"request": "launch",
+			"preLaunchTask": "Udemy_UE4Materials Win64 Development Build",
+			"program": "D:\\Repos\\Material Practice\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGame\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGame\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Udemy_UE4Materials (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "Udemy_UE4Materials Win64 Shipping Build",
+			"program": "D:\\Repos\\Material Practice\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGame\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGame\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Udemy_UE4Materials (Test)",
+			"request": "launch",
+			"preLaunchTask": "Udemy_UE4Materials Win64 Test Build",
+			"program": "D:\\Repos\\Material Practice\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGame\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGame\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Udemy_UE4MaterialsEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Udemy_UE4MaterialsEditor Win64 Debug Build",
+			"program": "D:\\EpicGame\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\Repos\\Material Practice\\Udemy_UE4Materials.uproject"
+			],
+			"cwd": "D:\\EpicGame\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGame\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Udemy_UE4MaterialsEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Udemy_UE4MaterialsEditor Win64 DebugGame Build",
+			"program": "D:\\EpicGame\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"D:\\Repos\\Material Practice\\Udemy_UE4Materials.uproject"
+			],
+			"cwd": "D:\\EpicGame\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGame\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Udemy_UE4MaterialsEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "Udemy_UE4MaterialsEditor Win64 Development Build",
+			"program": "D:\\EpicGame\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Repos\\Material Practice\\Udemy_UE4Materials.uproject"
+			],
+			"cwd": "D:\\EpicGame\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGame\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\EpicGame\\UE_4.24\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\Repos\\Material Practice\\Udemy_UE4Materials.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\EpicGame\\UE_4.24"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"D:/Repos/Material Practice/.git": true,
+		"D:/Repos/Material Practice/.vscode": true,
+		"D:/Repos/Material Practice/Content": true,
+		"D:/Repos/Material Practice/Intermediate": true,
+		"D:/Repos/Material Practice/Saved": true
+	}
+}
